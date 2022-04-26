@@ -1,0 +1,5 @@
+cnijfilter-ip2600series (2.90-2) focal; urgency=medium
+
+  * Replace libpng12 with libpng
+
+ -- Archisman Panigrahi <apandada1@gmail.com>  Tue, 26 Apr 2022 11:39:56 +0530

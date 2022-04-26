@@ -1,0 +1,15 @@
+Source: cnijfilter-ip2600series
+Maintainer: Canon Inc. <sup-debian@list.canon.co.jp>
+Section: graphics
+Standards-Version: 4.1.4
+Build-depends: debhelper, python3-dev
+Priority: optional
+
+Package: cnijfilter-ip2600series
+Architecture: i386
+Depends: libatk1.0-0 (>= 1.9.0), libc6 (>= 2.3.4-1), libcairo2 (>= 1.0.2-2), libcupsys2 (>= 1.2.1), libfontconfig1 (>= 2.3.0), libglib2.0-0 (>= 2.10.0), libgtk2.0-0 (>= 2.8.0), libpango1.0-0 (>= 1.12.3), libpng-dev (>= 1.2.8rel), libpopt0 (>= 1.7), libtiff4, libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxi6, libxinerama1, libxml2 (>= 2.6.24), libxrandr2, libxrender1, cnijfilter-common (>= 2.90)
+Section: graphics
+Description: IJ Printer Driver for Linux.
+ This IJ Printer Driver provides printing functions for Canon Inkjet
+ printers operating under the CUPS (Common UNIX Printing System) environment.
+ 
